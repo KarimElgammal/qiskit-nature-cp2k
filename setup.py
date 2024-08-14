@@ -10,7 +10,8 @@ setup(
     packages=find_packages(),
     python_requires=">=3.8",
     install_requires=[
-        "qiskit-nature~=0.7.0",
+        "qiskit==0.45.0",
+        "qiskit-nature==0.7.0",
     ],
     include_package_data=True,
     classifiers=[
